@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="brand">My Blog</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="bloglist.html">Blogs</a>
+                <a href="create.html">Create Blog</a>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <h1>Create a New Blog Post</h1>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <form id="create-blog-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea id="content" name="content" rows="10" required></textarea>
+                </div>
+                <button type="submit">Create Blog Post</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Static Blogging Website. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
